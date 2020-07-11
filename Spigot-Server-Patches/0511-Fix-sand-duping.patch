@@ -19,7 +19,7 @@ index 40ab0a1e5b8e31f1ef3b2444366784a65f034341..6697b94550054ebbc8d4b3761bd9f36e
 +            return;
 +        }
 +        // Paper end - fix sand duping
-         if (this.block.isAir()) {
+         if (false) {
              this.die();
          } else {
 @@ -86,6 +91,12 @@ public class EntityFallingBlock extends Entity {
